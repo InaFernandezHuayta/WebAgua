@@ -1,0 +1,31 @@
+.inicio {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, #0d0249, #580c2d);
+}
+
+.Image {
+  width: 350px;
+  height: 230px;
+  padding-bottom: 80px;
+}
+
+.inicio p {
+  color: #f1f1f1;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+  .inicio p {
+    font-size: 2.5em;
+  }
+  .Image {
+    width: 600px;
+    height: 400px;
+    padding-bottom: 80px;
+  }
+}
